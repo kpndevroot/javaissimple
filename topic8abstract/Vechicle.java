@@ -1,5 +1,5 @@
 package topic8abstract;
 
 abstract class Vechicle {
-    public abstract void wheel();
+    public abstract void wheel() ;
 }

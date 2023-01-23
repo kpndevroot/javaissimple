@@ -1,4 +1,4 @@
-package topic10exceptionHand;
+package topic10exceptionhand;
 
 import javax.lang.model.util.ElementScanner14;
 
@@ -23,11 +23,11 @@ public class Throwing {
 
     public static void main(String[] args) {
         validate(16);
-        // try {
-        //     Throwing T = new Throwing();
-        //     T.mymethod(6);
-        // } catch (Exception e) {
-        //     System.out.println(e);
-        // }
+        try {
+            Throwing T = new Throwing();
+            T.mymethod(6);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 }

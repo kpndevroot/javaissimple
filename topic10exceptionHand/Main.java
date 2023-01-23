@@ -1,4 +1,4 @@
-package topic10exceptionHand;
+package topic10exceptionhand;
 
 public class Main {
     public static void main(String[] args) {

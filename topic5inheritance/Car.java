@@ -5,11 +5,15 @@ public class Car extends Vechicle {
     int price;
 
     public void addCar(String brand, int price,String brake, String gear) {
+        this.Brand=brand;
+        this.price=price;
+        this.brake=brake;
+        this.gear=gear;
         System.out.println("Car");
         System.out.println("Brand "+ brand);
         System.out.println("Price " + price);
         System.out.println("Brake " + brake);
-        System.out.println("price "+ price);
+        System.out.println("Gear "+ gear);
 
 
 

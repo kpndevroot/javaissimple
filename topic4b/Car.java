@@ -6,4 +6,8 @@ public class Car {
     public void wheels() {
         System.out.println("4 wheels");
     }
+    public static void hello(){
+        System.out.println("helo");
+
+    }
 }
